@@ -17,6 +17,7 @@ body{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 10px;
     background-image: linear-gradient(hsl(244, 38%, 16%), hsla(277, 64%, 61%, 0.2)) ;
+    accent-color: hsla(277, 64%, 61%, 0.2);
 }
 .left{
     padding: 2rem;
@@ -24,9 +25,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
-.heading{
-    display: flex;
 }
 .bottom{
     display: flex;
