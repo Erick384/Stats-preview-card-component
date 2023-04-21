@@ -3,3 +3,48 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    background-color: hsl(233, 47%, 7%);
+}
+.container{
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    background-image: linear-gradient(hsl(244, 38%, 16%), hsla(277, 64%, 61%, 0.2)) ;
+}
+.left{
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.heading{
+    display: flex;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.one h2{
+    color: hsl(0, 0%, 100%);
+}
+.one p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+}
+.right{
+    background-image: url(./images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+}
